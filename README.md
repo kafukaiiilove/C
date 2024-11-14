@@ -1,1 +1,1 @@
-一个简单的c程序
+A simple C code！
