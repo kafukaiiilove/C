@@ -3,7 +3,7 @@
 
 int main()
 {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 10; i++)
         printf("Hello Grayson~%d\n", i); 
  system("pause");
  system("anyways");
