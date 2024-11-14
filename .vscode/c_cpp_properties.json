@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        // 32位
+        {
+            "name": "Win32", // 当前配置的名称
+            "includePath": [
+                "${default}" 				//添加默认的头文件路径
+                ,"${workspaceFolder}/**",
+                "D:/Mingw8.1.0/mingw64/x86_64-w64-mingw32/include" // 编译器的头文件路径
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            // 此处是你的 Windows SDK 版本号
+            "windowsSdkVersion": "10.0.20348.0",
+            // 此处是编译器的地址
+            "compilerPath": "D:/Mingw8.1.0/mingw64/bin/gcc.exe",
+            "cStandard": "c17", // C 标准 
+            "cppStandard": "c++17", // C++ 标准
+            "intelliSenseMode": "windows-msvc-x86" // 智能感知的模式
+        },
+        // x64位
+        {
+            "name": "x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Mingw8.1.0/mingw64/x86_64-w64-mingw32/include"// 编译器的头文件路径
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            // 此处是你的 Windows SDK 版本号
+            "windowsSdkVersion": "10.0.20348.0",
+            // 此处是编译器的地址
+            "compilerPath": "D:/Mingw8.1.0/mingw64/bin/gcc.exe",
+            "cStandard": "c17", // C 标准 
+            "cppStandard": "c++17", // C++ 标准
+            "intelliSenseMode": "windows-msvc-x64" // 智能感知的模式
+        }
+    ],
+    "version": 4
+}
